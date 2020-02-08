@@ -95,3 +95,54 @@ the dynamic parts that will be known only in the context of a request. The proce
 replaces the variables with actual values and returns a final response string is called
 rendering. For the task of rendering templates, Flask uses a powerful template engine
 called Jinja2.
+
+## Variables
+The {{ name }} construct used in the template shown in Example 3-2 references a
+variable, a special placeholder that tells the template engine that the value that goes in
+that place should be obtained from data provided at the time the template is rendered.
+Jinja2 recognizes variables of any type, even complex types such as lists, dictionaries
+and objects. The following are some more examples of variables used in templates:
+<p>A
+<p>A
+<p>A
+<p>A
+value
+value
+value
+value
+from
+from
+from
+from
+a dictionary: {{ mydict['key'] }}.</p>
+a list: {{ mylist[3] }}.</p>
+a list, with a variable index: {{ mylist[myintvar] }}.</p>
+an object's method: {{ myobj.somemethod() }}.</p>
+Variables can be modified with filters, which are added after the variable name with a
+pipe character as separator. For example, the following template shows the name variable
+capitalized:
+Hello, {{ name|capitalize }}
+Table 3-1 lists some of the commonly used filters that come with Jinja2.
+Table 3-1. Jinja2 variable filters
+Filter name Description
+safe Renders the value without applying escaping
+capitalize Converts the first character of the value to uppercase and the rest to lowercase
+lower Converts the value to lowercase characters
+upper Converts the value to uppercase characters
+title Capitalizes each word in the value
+trim Removes leading and trailing whitespace from the value
+striptags Removes any HTML tags from the value before rendering
+
+## Twitter Bootstrap Integration with Flask-Bootstrap
+
+Bootstrap is an open source framework from Twitter that provides user interface com‐
+ponents to create clean and attractive web pages that are compatible with all modern
+web browsers.
+Bootstrap is a client-side framework, so the server is not directly involved with it. All
+the server needs to do is provide HTML responses that reference Bootstrap’s cascading
+style sheets (CSS) and JavaScript files and instantiate the desired components through
+HTML, CSS, and JavaScript code. The ideal place to do all this is in templates.
+The obvious way to integrate Bootstrap with the application is to make all the necessary
+changes to the templates. A simpler approach is to use a Flask extension called Flask-
+Bootstrap to simplify the integration effort. Flask-Bootstrap can be installed with pip:
+(venv) $ pip install flask-bootstrap
