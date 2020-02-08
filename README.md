@@ -85,3 +85,13 @@ def get_user(id):
 Note that abort does not return control back to the function that calls it but gives control
 back to the web server by raising an exception.
 
+## Templates
+
+Imagine having to build the HTML code for a large table by concatenating
+data obtained from the database with the necessary HTML string literals. Moving the
+presentation logic into templates helps improve the maintainability of the application.
+A template is a file that contains the text of a response, with placeholder variables for
+the dynamic parts that will be known only in the context of a request. The process that
+replaces the variables with actual values and returns a final response string is called
+rendering. For the task of rendering templates, Flask uses a powerful template engine
+called Jinja2.
