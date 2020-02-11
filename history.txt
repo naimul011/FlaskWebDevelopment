@@ -1,0 +1,987 @@
+    1  clear
+    2  pwd
+    3  ls
+    4  cd Desktop/
+    5  gcc
+    6  sudo apt-get install gcc
+    7  geddit
+    8  sudo apt install gedit
+    9  gedit
+   10  gedit main.cpp
+   11  touch main.cpp
+   12  ls
+   13  gedit main.cpp 
+   14  cat main.cpp 
+   15  gcc main.cpp main.cpp
+   16  gcc main.cpp
+   17  cclplus main.cpp 
+   18  gedit
+   19  clear
+   20  sudo apt install g++
+   21  ls
+   22  g++ main.cpp -o main.o
+   23  ls
+   24  ./main.o 
+   25  ./main.o >> output
+   26  ls
+   27  cat output 
+   28  gedit main.cpp
+   29  clear
+   30  g++ main.cpp -o main.o
+   31  clear
+   32  gedit main.cpp
+   33  vim main.cpp
+   34  g++ main.cpp -o main.o
+   35  clear
+   36  g++ main.cpp -o main.o
+   37  cat 2 3 || main.o
+   38  cat 2 3 >>  main.o
+   39  echo 2 3 ||  main.o
+   40  2 3 >> input
+   41  cat 2 3 >> input
+   42  cat 2 3 > input
+   43  cat "2 3" > input
+   44  cat "2 3" >> input
+   45  cat input
+   46  cat input || main.o
+   47  cat input || main.o >> output
+   48  ls
+   49  cat output
+   50  cat cat input || main.o >> output
+   51  cat input || main.o || output
+   52  cat output 
+   53  cat input || main.o > output
+   54  cat output 
+   55  ./main.o 
+   56  input || main.o > output
+   57  echo input || main.o > output
+   58  cat output 
+   59  cat input >> main.o
+   60  cat main.o
+   61  clear
+   62  cat input 
+   63  cat main.cpp
+   64  cat input || main.o > output
+   65  output
+   66  cat output 
+   67  cat input || main.o > output.txt
+   68  cat output.txt
+   69  ls
+   70  ls > output 
+   71  cat output 
+   72  cat input || main.o 
+   73  cat input || main.o output
+   74  cat output 
+   75  cat input || main.o || main.o
+   76  cat input | main.o >> output
+   77  cat input | ./main.o >> output
+   78  cat output 
+   79  cat input | ./main.o > output
+   80  cat output 
+   81  xclip -sel c < file
+   82  xclip -sel c < output 
+   83  xsel -b < output 
+   84  sudo apt install xsel
+   85  xsel -b < output 
+   86  history 
+   87  history > history.txt
+   88  cat 1 2 3 4 5 6 > output 
+   89  cat "1 2 3 4 5 6" > output 
+   90  cat "1 2 3 4 5 6" > output cat 1 2
+   91  echo "1 2 3 34 4 5 5" >> output 
+   92  xsel -b < output 
+   93  g++ main.cpp -o main.o
+   94  ./main.o 
+   95  g++ main.cpp -o main.o
+   96  1 2
+   97  g++ main.cpp -o main.o
+   98  ./main.o 
+   99  g++ main.cpp -o main.o
+  100  ls
+  101  cd pwd
+  102  vim
+  103  sudo apt install vim
+  104  pwd
+  105  ls
+  106  cd Desktop/
+  107  ls
+  108  vim main.cpp
+  109  cat main.cpp 
+  110  clear
+  111  g++ main.cpp -o main
+  112  clear
+  113  vim main.cpp
+  114  g++ main.cpp -o main
+  115  clear
+  116  exit
+  117  cd Desktop/
+  118  gedit main.cpp
+  119  exit
+  120  pwd
+  121  ls
+  122  cd Desktop/
+  123  pwd
+  124  cd Desktop/
+  125  vim main.cpp
+  126  ls
+  127  g++ main.cpp -o main
+  128  clear
+  129  vim main.cpp
+  130  g++ main.cpp -o main
+  131  clear
+  132  vim main.cpp
+  133  g++ main.cpp -o main
+  134  vim main.cpp
+  135  clear
+  136  g++ main.cpp -o main
+  137  vim main.cpp
+  138  clear
+  139  g++ main.cpp -o main
+  140  clearclear
+  141  clear
+  142  init 0
+  143  pwd
+  144  ls
+  145  init 0
+  146  cd ..
+  147  cd Desktop/
+  148  mkdir Conference
+  149  mv ../Downloads/Paper_1__Grayscale_portrait_colorization_using_cnns.pdf Conference/
+  150  cd Conference/
+  151  ls
+  152  clear
+  153  init 0
+  154  clear
+  155  pwd
+  156  ls
+  157  cd Desktop/
+  158  la
+  159  ls
+  160  la
+  161  rm mai* ; rm input ; rm output 
+  162  clear
+  163  mkdir Coding
+  164  cd Coding/
+  165  ls
+  166  touch main.cpp input output
+  167  vim main.cpp
+  168  g++ main.cpp 
+  169  vim main.cpp
+  170  g++ main.cpp 
+  171  la
+  172  ./a.out 
+  173  g++ main.cpp 
+  174  vim main.cpp
+  175  g++ main.cpp 
+  176  vim main.cpp
+  177  g++ main.cpp 
+  178  echo 5|a
+  179  echo 5|a.out
+  180  la
+  181  echo 5|./a.out
+  182  echo 6|./a.out
+  183  echo {6..10}|./a.out
+  184  echo 10|./a.out
+  185  vim main.cpp
+  186  init 0
+  187  cd Desktop/echo "print("hello world")" >> main.py
+  188  cd Desktop; echo "print("hello world")" >> main.py
+  189  python main.py 
+  190  vim main.py 
+  191  python main.py 
+  192  clear
+  193  vim main.py 
+  194  python main.py 
+  195  vim main.py 
+  196  python main.py 
+  197  vim main.py 
+  198  python main.py 
+  199  vim main.py 
+  200  python main.py 
+  201  vim main.py 
+  202  cd Desktop/
+  203  mkdir lcs_dp
+  204  mv main.py lcs_dp/
+  205  vim main.py
+  206  python
+  207  python main.py 
+  208  vim main.py
+  209  clear
+  210  vim main.py
+  211  python main.py 
+  212  vim main.py
+  213  python main.py 
+  214  vim main.py
+  215  python main.py 
+  216  vim main.py
+  217  python main.py 
+  218  clear
+  219  cd Downloads/
+  220  bash Anaconda3-2019.10-Linux-x86_64.sh 
+  221  jupyter
+  222  bash Anaconda3-2019.10-Linux-x86_64.sh 
+  223  cd ..
+  224  ls
+  225  cd ..
+  226  ls
+  227  cd /nai
+  228  cd naimul/
+  229  cd anaconda3/
+  230  ls
+  231  ./conda.exe 
+  232  bash conda.exe 
+  233  cd ..
+  234  rm -r anaconda3/
+  235  ls
+  236  cd Downloads/
+  237  bash Anaconda3-2019.10-Linux-x86_64.sh 
+  238  cd ..
+  239  ls
+  240  rm -r anaconda3/
+  241  ls
+  242  sudo apt install anaconda
+  243  python3
+  244  clear
+  245  cd ~
+  246  mddir tmp 
+  247  cd tmp
+  248  mkdir tmp 
+  249  clear
+  250  cd tmp
+  251  https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
+  252  ls
+  253  cd ..
+  254  ls
+  255  cd Downloads/
+  256  ls
+  257  bash Anaconda3-2019.10-Linux-x86_64.sh 
+  258  rm Anaconda3-2019.10-Linux-x86_64.sh 
+  259  bash Anaconda3-2019.10-Linux-ppc64le.sh 
+  260  cd ..
+  261  ls
+  262  rm -r anaconda3/
+  263  init 0
+  264  cd Desktop/
+  265  vim main.py 
+  266  clear
+  267  cd Desktop/
+  268  ls
+  269  cd lcs_dp/
+  270  ls
+  271  python main.py 
+  272  ls
+  273  cd Desktop/
+  274  pwd
+  275  ls
+  276  cd Conference/
+  277  ls
+  278  cd ~
+  279  ls
+  280  cd Desktop/
+  281  ls
+  282  vpnc
+  283  sudo vpnc
+  284  pwd
+  285  cd Desktop/
+  286  mkdir Quantum Computing
+  287  rm -r Computing/
+  288  ls
+  289  cd Downloads/
+  290  mv *.jpg ../Desktop/Computer\ Networks/
+  291  ls
+  292  cd ..
+  293  cd Desktop/Computer\ Networks/
+  294  ls
+  295  sudo apt-get intall pip
+  296  asd
+  297  install asd
+  298  sudo apt intall python
+  299  sudo apt-get python
+  300  sudo apt-get install python
+  301  python
+  302  sudo apt-get install python3
+  303  python3
+  304  clear
+  305  sudo apt-get install python3
+  306  clear
+  307  cd Desktop/
+  308  ls
+  309  mkdir Test
+  310  ls
+  311  cd Test/
+  312  clear
+  313  ls
+  314  touch text.txt
+  315  ls
+  316  cat text.txt
+  317  ls
+  318  cat hello >> text.txt 
+  319  cat " hello" >> text.txt 
+  320  echo "hello world" >> text.txt 
+  321  cat text.txt 
+  322  python
+  323  clear
+  324  init 0
+  325  pip
+  326  sudo apt install python3-pip
+  327  pip
+  328  pip3
+  329  clear
+  330  pip3 install flask
+  331  python3
+  332  clear
+  333  cd Desktop/
+  334  mkdir FlaskApp
+  335  cd FlaskApp/
+  336  ls
+  337  clear
+  338  touch flask_blog.py
+  339  gedit flask_blog.py 
+  340  export FLASK_APP=flask_blog.py 
+  341  flask run
+  342  sudo apt install python3-flask
+  343  export FLASK_APP=flask_blog.py 
+  344  flask run
+  345  cd Desktop/
+  346  ls
+  347  cd FlaskApp/
+  348  ls
+  349  export FLASK_APP=flask_blog.py 
+  350  flask run
+  351  clear
+  352  vim flask_blog.py 
+  353  flask run
+  354  clear
+  355  export FLASK_DEBIG=1
+  356  flask run
+  357  export FLASK_DEBUG=1
+  358  flask run
+  359  clear
+  360  python3 flask_blog.py 
+  361  ls
+  362  cd Desktop/
+  363  cd FlaskApp/
+  364  ls
+  365  cd ..
+  366  FlaskAPP2
+  367  mkdir FlaskApp2
+  368  cp FlaskApp/flask_blog.py FlaskApp2
+  369  cd FlaskApp2
+  370  ls
+  371  python3 flask_blog.py 
+  372  clear
+  373  mikdir templates
+  374  mkdir templates
+  375  clear
+  376  touch home.html about.html
+  377  ls
+  378  mv *.html templates/
+  379  ls
+  380  ls templates/home.html 
+  381  ls templates/
+  382  vim templates/about.html 
+  383  cat templates/about.html 
+  384  clear
+  385  ls
+  386  cd templates/
+  387  ls
+  388  vim about.html 
+  389  clear
+  390  history 
+  391  history | cat
+  392  clear
+  393  init 0
+  394  date
+  395  cal
+  396  clear
+  397  man cal
+  398  clear
+  399  cal
+  400  date
+  401  clear
+  402  cleare
+  403  clear
+  404  init 0
+  405  python3
+  406  clear
+  407  sudo apt install git
+  408  clear
+  409  git
+  410  clear
+  411  git config --global user.name "Emma Paris"
+  412  git config --global user.email "naimul011@gmail.com"
+  413  echo "# PythonBasics" >> README.md
+  414  git init
+  415  ls
+  416  rm -r .git
+  417  ls
+  418  rm README.md 
+  419  clear
+  420  cd 
+  421  cd Desktop/
+  422  ls
+  423  cd Sale\ 1/
+  424  ls
+  425  clear
+  426  git init
+  427  git add README.md
+  428  echo "# Python Basics"
+  429  echo "# Python Basics" >> README.md
+  430  git add .
+  431  git commit -m "first commit"
+  432  clear
+  433  git remote add origin https://github.com/naimul011/PythonBasics.git
+  434  git push -u origin master
+  435  git add .
+  436  git commit -m "images are deleted"
+  437  git push -u origin master
+  438  clear
+  439  git push -u origin master
+  440  echo "# Python Basics"
+  441  clear
+  442  init 0
+  443  mkdir FlakApp
+  444  rm FlakApp/
+  445  rm -r FlakApp/
+  446  cd Desktop/
+  447  mkdir FlakApp
+  448  ls
+  449  rm -r FlakApp/
+  450  ls
+  451  mkdir FlaskApp
+  452  mv FlaskApp1 FlaskApp2 /FlaskApp
+  453  ls
+  454  mv FlaskApp1 FlaskApp2 FlaskApp
+  455  git init
+  456  git
+  457  git init
+  458  echo "# FlaskAPP" >> README.md
+  459  git add .
+  460  git commit -m "First commit"
+  461  git remote add origin //github.com/naimul011/FlaskAPP.git
+  462  git push -u origin master
+  463  git remote add origin https://github.com/naimul011/FlaskAPP.git
+  464  git push -u origin master
+  465  init 0
+  466  cd Desktop/
+  467  cd FlaskApp/
+  468  git status
+  469  clear
+  470  ls
+  471  cd FlaskApp1
+  472  ls
+  473  clear
+  474  ls
+  475  gedit flask_blog.py 
+  476  clear
+  477  ls
+  478  mkdir satic templates
+  479  ls
+  480  rm -r satic
+  481  ls
+  482  mkdir static
+  483  ls
+  484  touch static/main.css
+  485  gedit static/main.css 
+  486  gedit touch templates/about.html templates/home.html templates/layout.html 
+  487  ls templates/
+  488  touch templates/about.html templates/home.html templates/layout.html 
+  489  gedit templates/about.html 
+  490  vim templates/home.html 
+  491  cat templates/home.html 
+  492  vim templates/home.html 
+  493  cat templates/home.html 
+  494  clear
+  495  vim templates/layout.html 
+  496  clear
+  497  ls
+  498  vim flask_blog.py 
+  499  clear
+  500  cd Desktop/
+  501  ls
+  502  mkdir Test
+  503  cd Test/
+  504  touch test.py
+  505  vim test.py
+  506  gedit test.py 
+  507  templates
+  508  mkdir templates
+  509  cd templates/
+  510  touch home.html
+  511  ls
+  512  vim home.html 
+  513  javac
+  514  java
+  515  clear
+  516  cd Desktop/
+  517  ls
+  518  cd Internet\ and\ Web\ Programming/
+  519  ls
+  520  gedit PortProbe
+  521  touch PortProbe.java
+  522  gedit PortProbe.java 
+  523  cd Desktop/Internet\ and\ Web\ Programming/
+  524  ls
+  525  cd TCPConnection/
+  526  ls
+  527  java TCPClient 
+  528  touch TCPServer
+  529  vim TCPServer 
+  530  mv TCPServer TCPServer.java
+  531  gedit TCPServer.java 
+  532  gedit TCPClient.java
+  533  ls
+  534  javac TCPServer.java 
+  535  javac TCPClient.java 
+  536  gedit TCPClient.java 
+  537  javac TCPClient.java 
+  538  ls
+  539  java TCPServer.class
+  540  java TCPServer 
+  541  ls
+  542  ls -a
+  543  git status
+  544  git init
+  545  mkdir Datastucture
+  546  mv *.py Datastucture/
+  547  clear
+  548  git add .
+  549  git commit -m "separate directory"
+  550  git remote add "https://github.com/naimul011/PythonBasics"
+  551  git push -u origin master
+  552  git remote add -f "https://github.com/naimul011/PythonBasics"
+  553  git push -u origin master
+  554  git push  master
+  555  git push  --set-upstream master master
+  556  vim ../test.py
+  557  python3 ../test.py 
+  558  python3 ../test.py hello world
+  559  vim ../test.py 
+  560  python3 ../test.py 
+  561  python3 ../test.py gjhjhj
+  562  init 0
+  563  echo "# NetworkProgramming" >> README.md
+  564  git init
+  565  git add README.md
+  566  git commit -m "first commit"
+  567  git add TCPConnection/
+  568  git status
+  569  git commit -m "TCP connection"
+  570  git remote add origin https://github.com/naimul011/NetworkProgramming.git
+  571  git push -u origin master
+  572  mkdir Test
+  573  cp FlaskApp1/flask_blog.py 
+  574  cp FlaskApp1/flask_blog.py .
+  575  mkdir templates
+  576  cd templates/
+  577  home.html
+  578  touch home.html
+  579  gedit home.html 
+  580  vim ../FlaskApp1/templates/home.html 
+  581  vim ../FlaskApp1/templates/layout.html 
+  582  cat "<html>"
+  583  <head><title>Home</title></head>
+  584  <body>
+  585  <h1>
+  586  Welcome to home
+  587  </h1>
+  588  </body>
+  589  </html>clear
+  590  clear
+  591  echo "<html>"
+  592  <head><title>Home</title></head>
+  593  <body>
+  594  <h1>
+  595  Welcome to home
+  596  </h1>
+  597  </body>
+  598  touch about.html
+  599  vim about.html 
+  600  gedit flask_blog.py 
+  601  gedit templates/home.html 
+  602  gedit flask_blog.py 
+  603  gedit templates/home.html 
+  604  cat templates/home.html 
+  605  python3 flask_blog.py 
+  606  clear
+  607  gedit flask_blog.py 
+  608  python3 flask_blog.py 
+  609  touch templates/layout.html
+  610  gedit templates/home.html 
+  611  gedit templates/layout.html 
+  612  gedit templates/home.html 
+  613  gedit flask_blog.py 
+  614  gedit templates/about.html 
+  615  gedit templates/home.html 
+  616  gedit templates/about.html 
+  617  git add ../Test/
+  618  git commit -m "Test added"
+  619  git push -u origin master
+  620  git 
+  621  git push -u origin master
+  622  ls
+  623  cat README.md 
+  624  ls -a
+  625  git remote add "https://github.com/naimul011/FlaskAPP"
+  626  git remote add -f "https://github.com/naimul011/FlaskAPP"
+  627  git remote add -m "https://github.com/naimul011/FlaskAPP"
+  628  git branch homelaptop
+  629  git checkout homelaptop 
+  630  git status
+  631  git add .
+  632  git commit
+  633  git commit -m "on the second branch"
+  634  git push
+  635  git push --set-upstream origin homelaptop
+  636  cd Desktop/FlaskApp/Test/
+  637  ls
+  638  cd ..
+  639  ls
+  640  mv templates Test/
+  641  ls
+  642  mv flask_blog.py Test/
+  643  ls
+  644  cd Test/
+  645  ls
+  646  ls templates/
+  647  cat templates/about.html 
+  648  gedit templates/about.html 
+  649  cat templates/about.html 
+  650  vim templates/about.html 
+  651  cat templates/about.html 
+  652  gedit flask_blog.py 
+  653  python3 flask_blog.py 
+  654  ls -a
+  655  cd .git
+  656  ls
+  657  cd branches/
+  658  ls
+  659  ls -a
+  660  cd ..
+  661  ls
+  662  cd ..
+  663  ls
+  664  git status
+  665  git add .
+  666  git commit -m "STH"
+  667  git push -u origin master
+  668  init 0
+  669  who am i
+  670  who am I
+  671  ls
+  672  cd Desktop/
+  673  ls
+  674  cd FlaskApp/
+  675  ls
+  676  cd Test/
+  677  cd ../FlaskApp1
+  678  LS
+  679  ls
+  680  python3 flask_blog.py 
+  681  clear
+  682  javac
+  683  cd Desktop/
+  684  git clone https://github.com/naimul011/Java-Chat-Application.git
+  685  ls
+  686  cd Java-Chat-Application/
+  687  ls
+  688  cd src/
+  689  ls
+  690  cd server/
+  691  ls
+  692  cat protocol 
+  693  ls
+  694  javac ServerMain.java 
+  695  ls
+  696  gedit ServerMain.java 
+  697  gedit *
+  698  javac Server.java
+  699  javac ClientHandler.java 
+  700  javac User.java 
+  701  javac ClientHandler.java 
+  702  init 0
+  703  pyhton3
+  704  python3
+  705  date
+  706  cal
+  707  clear
+  708  python3
+  709  clear
+  710  cd Desktop/
+  711  ls
+  712  cd FlaskApp/
+  713  ls
+  714  cd Test/
+  715  ls
+  716  python3 flask_blog.py 
+  717  clear
+  718  exit
+  719  cat /tmp/email.txt
+  720  touch /tmp/email.txt
+  721  cat /tmp/email.txt
+  722  nano /tmp/email.txt 
+  723  cat /tmp/email.txt 
+  724  sendmail nadiananziba@gmail.com < /tmp/email.txt 
+  725  sudo apt install sendmail
+  726  sendmail nadiananziba@gmail.com < /tmp/email.txt 
+  727  sendmail
+  728  man sendmail
+  729  exit
+  730  sendmail naimul011@gmail.com < /tmp/email.txt 
+  731  clear
+  732  curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash - sudo apt-get install -y nodejs
+  733  curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash
+  734  sudo apt-get install -y nodejs
+  735  sudo apt-get install -y build-essential
+  736  cd /
+  737  npm install -g fb-messenger-cli
+  738  ls npm
+  739  sudo apt install npm
+  740  npm install -g fb-messenger-cli
+  741  fb-messenger-cli
+  742  npm install -g fb-messenger-cli
+  743  fb-messenger-cli
+  744  sudo apt fb-messenger-cli
+  745  sudo apt install fb-messenger-cli
+  746  fb-messenger-cli
+  747  cd /
+  748  pwd
+  749  ls
+  750  clear
+  751  python3
+  752  clear
+  753  init 0
+  754  teamviewer
+  755  ls
+  756  history
+  757  clear
+  758  init 0
+  759  cd Desktop/Internet\ and\ Web\ Programming/TCPConnection/
+  760  ls
+  761  cat TCPServer.java | grep "ServerSocket"
+  762  cat TCPServer.java 6789
+  763  telnet "localhost" 6789
+  764  lspci | egrep -i --color 'network|ethernet'
+  765  ifconfig -a
+  766  cat /proc/net/dev
+  767  ifconfig
+  768  hostname 127.0.0.1
+  769  javac
+  770  cd Desktop/Internet\ and\ Web\ Programming/
+  771  ls
+  772  cd TCPConnection/
+  773  ls
+  774  java TCPServer.class
+  775  javac TCPServer.java 
+  776  java TCPServer.class
+  777  cat TCPServer.java 
+  778  java TCPServer.class
+  779  java
+  780  ls
+  781  cd ..
+  782  ls
+  783  cd TCPConnection/
+  784  ls
+  785  java TCPServer 
+  786  vim TCPServer.java 
+  787  clear
+  788  javac TCPServer.java
+  789  java TCPServer 
+  790  ifconfig
+  791  ping 192.168.0.104
+  792  telnet
+  793  clear
+  794  pwd
+  795  ls
+  796  cd Downloads/
+  797  sha1sum 2019-09-26-raspbian-buster-full.zip 
+  798  clear
+  799  unzip 2019-09-26-raspbian-buster-full.zip 
+  800  ls 2019-09-26-raspbian-buster-full.img 
+  801  sudo fdisk -l
+  802  sudo dd bs=1M if=2019-09-26-raspbian-buster-full.img of=/dev/sdb
+  803  ls
+  804  cd 
+  805  cd Desktop/
+  806  cd FlaskApp/FlaskApp1
+  807  vim forms.py
+  808  ls
+  809  vim templates/login.html
+  810  ls templates/
+  811  vim templates/register.html
+  812  python3 flask_blog.py 
+  813  cd templates/
+  814  ls
+  815  cat login.html 
+  816  cat register.html
+  817  cd Desktop/FlaskApp/
+  818  cd FlaskApp1
+  819  ls
+  820  pyhton3 flask_blog.py 
+  821  python3 flask_blog.py 
+  822  clear
+  823  cp ../FlaskApp1/* ../FlaskApp2
+  824  cd ../FlaskApp2
+  825  python3 flask_blog.py 
+  826  clear
+  827  python3 flask_blog.py 
+  828  gedit flask_blog.py 
+  829  ls
+  830  cd static/
+  831  ls
+  832  cd ..
+  833  ls
+  834  rm __pycache__/
+  835  rm -r __pycache__/
+  836  ls
+  837  python3 flask_blog.py 
+  838  cd ..
+  839  cd FlaskApp1
+  840  python3 flask_blog.py 
+  841  init 0
+  842  cd
+  843  cd Desktop/
+  844  ls
+  845  mkdir FlaskWebDevelopment
+  846  cd FlaskWebDevelopment/
+  847  ls
+  848  echo "# FlaskWebDevelopment" >> README.md
+  849  git init
+  850  git add README.md 
+  851  git commit -m "first commit"
+  852  git remote add origin https://github.com/naimul011/FlaskWebDevelopment.git
+  853  git push -u origin master
+  854  touch flaskapplication.py
+  855  nano flaskapplication.py 
+  856  cat flaskapplication.py 
+  857  nano flaskapplication.py 
+  858  git add flaskapplication.py
+  859  git commit -m "Initialization"
+  860  echo "## Initialization" >> README.md 
+  861  echo "The name argument that is passed to the Flask application construc‐" >> README.md 
+  862  tor is a source of confusion among new Flask developers. Flask uses
+  863  this argument to determine the root path of the application so that it
+  864  ls
+  865  cat README.md 
+  866  nano README.md 
+  867  git add README.md 
+  868  git commit -m "Initiation"
+  869  git push -u origin master
+  870  python3 flaskapplication.py 
+  871  nano flaskapplication.py 
+  872  python3 flaskapplication.py 
+  873  nano flaskapplication.py 
+  874  python3 flaskapplication.py 
+  875  nano README.md 
+  876  git add * 
+  877  git commit -m "Routes and View Functions"
+  878  git push -u origin master
+  879  nano README.md 
+  880  nano flaskapplication.py 
+  881  python3 flaskapplication.py 
+  882  clear
+  883  git add *
+  884  git commit -m "Server Startup"
+  885  git push -u master origin
+  886  git push -u origin master
+  887  cat flaskapplication.py 
+  888  nano flaskapplication.py 
+  889  python3 flaskapplication.py 
+  890  clear
+  891  git add flaskapplication.py 
+  892  git commit -m "A complete application"
+  893  git push -u origin master
+  894  nano README.md 
+  895  git add README.md 
+  896  git commit -m "HTTP Response"
+  897  git push -u origin master
+  898  nano README.md 
+  899  nano flaskapplication.py 
+  900  mkdir templates
+  901  touch templates/index.html
+  902  touch templates/user.html
+  903  nano templates/index.html 
+  904  nano templates/user.html 
+  905  python3 flaskapplication.py 
+  906  nano flaskapplication.py 
+  907  python3 flaskapplication.py 
+  908  git add *
+  909  git commit -m "Rendering templates"
+  910  git push -u origin master
+  911  nano README.md 
+  912  cp ~/Downloads/Miguel\ Grinberg\ -\ Flask\ Web\ Development_\ Developing\ Web\ Applications\ with\ Python-O\'Reilly\ Media\ \(2014\).pdf .
+  913  ls
+  914  git add Miguel\ Grinberg\ -\ Flask\ Web\ Development_\ Developing\ Web\ Applications\ with\ Python-O\'Reilly\ Media\ \(2014\).pdf 
+  915  git commit -m "Book added"
+  916  git push -u origin master
+  917  git nano README.md
+  918  nano README.md
+  919  nano flaskapplication.py 
+  920  gedit templates/user.html 
+  921  git add *
+  922  git commit -m "Flask-Bootstrap"
+  923  python3 flaskapplication.py 
+  924  pip3 install flask-bootstrap
+  925  python3
+  926  gedit flaskapplication.py 
+  927  python3 flaskapplication.py 
+  928  pip install flask-bootstrap
+  929  pip3 install flask-bootstrap
+  930  sudo pip3 install flask-bootstrap
+  931  nano /tmp/pip-build-7mwh1kew/flask-bootstrap/
+  932  cd /tmp/pip-build-7mwh1kew/flask-bootstrap/
+  933  cd /tmp/pip-build-7mwh1kew/
+  934  pip3 install setuptools
+  935  pip3 install flask-bootstrap
+  936  python3 flaskapplication.py 
+  937  sudo -H pip3 install --upgrade pip
+  938  pip3 install --upgrade setuptools
+  939  pip3 install flask-bootstrap
+  940  python3 flaskapplication.py 
+  941  nano flaskapplication.py 
+  942  python3 flaskapplication.py 
+  943  nano flaskapplication.py 
+  944  python3 flaskapplication.py 
+  945  git add *
+  946  git status
+  947  git commit -m "Flask-Bootstrap"
+  948  git push -u origin master
+  949  nano flaskapplication.py 
+  950  gedit flaskapplication.py 
+  951  gedit templates/base.html
+  952  gedit templates/404.html
+  953  cat flaskapplication.py 
+  954  python3 flaskapplication.py 
+  955  gedit templates/index.html 
+  956  git add *
+  957  git commit -m "Custom Error Pages"
+  958  ls
+  959  ls -a
+  960  git status
+  961  git push -u origin master
+  962  python3 flaskapplication.py 
+  963  ls
+  964  cd templates/
+  965  ls
+  966  cat 404.html 
+  967  clear
+  968  ls
+  969  ls 404.html 
+  970  cat 404.html 
+  971  cd ..
+  972  python3 flaskapplication.py 
+  973  man reboot 
+  974  reboot
+  975  history
+  976  history 
+  977  history | less
+  978  history | tail
+  979  pwd
+  980  cd Desktop/
+  981  history
+  982  cd FlaskWebDevelopment/
+  983  history > history.txt
+  984  cat history.txt 
+  985  clear
+  986  pip3 install flask-wtf
+  987  history > history.txt
