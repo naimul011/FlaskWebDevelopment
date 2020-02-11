@@ -148,3 +148,8 @@ The obvious way to integrate Bootstrap with the application is to make all the n
 changes to the templates. A simpler approach is to use a Flask extension called Flask-
 Bootstrap to simplify the integration effort. Flask-Bootstrap can be installed with pip:
 (venv) $ pip install flask-bootstrap
+
+## Cross-Site Request Forgery (CSRF) Protection
+By default, Flask-WTF protects all forms against Cross-Site Request Forgery (CSRF)
+attacks. A CSRF attack occurs when a malicious website sends requests to a different
+website on which the victim is logged in.

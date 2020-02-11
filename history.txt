@@ -1,10 +1,10 @@
-  984  cat history.txt 
-  985  clear
-  986  pip3 install flask-wtf
-  987  history > history.txt
-  988  git add history.txt 
-  989  git commit -m "Installing Flask-WTF extension"
-  990  git push -u origin master
-  991  git pull 
   992  git push -u origin master
   993  history | tail > history.txt 
+  994  git commit -m "Installing Flask-WTF extension"
+  995  cat history.txt 
+  996  git add history.txt 
+  997  git commit -m "Installing Flask-WTF extension"
+  998  git push -u origin master 
+  999  gedit randomStringGenerator.py
+ 1000  python3 randomStringGenerator.py 16
+ 1001  history | tail  > history.txt 
