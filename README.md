@@ -153,3 +153,8 @@ Bootstrap to simplify the integration effort. Flask-Bootstrap can be installed w
 By default, Flask-WTF protects all forms against Cross-Site Request Forgery (CSRF)
 attacks. A CSRF attack occurs when a malicious website sends requests to a different
 website on which the victim is logged in.
+
+## Form Classes
+When using Flask-WTF, each web form is represented by a class that inherits from class
+Form . The class defines the list of fields in the form, each represented by an object. Each
+field object can have one or more validators attached.
