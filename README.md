@@ -159,5 +159,5 @@ When using Flask-WTF, each web form is represented by a class that inherits from
 Form . The class defines the list of fields in the form, each represented by an object. Each
 field object can have one or more validators attached.
 
-![](WTForms standard HTML fields.png)
-![](WTForms validators.png)
+![](WTForms\ standard\ HTML\ fields.png)
+![](WTForms\ validators.png)
