@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, session, redirect, url_for
 from flask_bootstrap import Bootstrap
 from flask_wtf import Form
 from wtforms import StringField, SubmitField
@@ -17,12 +17,11 @@ app.config['SECRET_KEY'] = '7cwtzhl0tkg9obj9'
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
 def index():
-	name = None
 	form = NameForm()
 	if form.validate_on_submit():
-		name = form.name.data
-		form.name.data = ''
-	return render_template('index.html', form=form, name=name)
+		session['name'] = form.name.data
+		return redirect(url_for('index'))
+	return render_template('index.html', form=form, name=session.get('name'))
 
 @app.route('/user/<name>')
 def user(name):

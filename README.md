@@ -159,5 +159,21 @@ When using Flask-WTF, each web form is represented by a class that inherits from
 Form . The class defines the list of fields in the form, each represented by an object. Each
 field object can have one or more validators attached.
 
+<<<<<<< HEAD
+## Redirects and User Sessions
+
+Applications can “remember” things from one request to the next by storing them in
+the user session, private storage that is available to each connected client. The user session
+was introduced in Chapter 2 as one of the variables associated with the request context.
+It’s called session.
+
+Requests that come with valid form data will now end with a call to redirect() , a helper
+function that generates the HTTP redirect response. The redirect() function takes
+the URL to redirect to as an argument. The redirect URL used in this case is the root
+URL, so the response could have been written more concisely as redirect('/') , but
+instead Flask’s URL generator function url_for() is used.
+
+=======
 ![](WTForms/ standard/ HTML/ fields.png)
 ![](WTForms/ validators.png)
+>>>>>>> 9782b5fdeea9c4d82f71d745f01a119a5cf4ccc0
