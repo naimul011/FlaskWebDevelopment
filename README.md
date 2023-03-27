@@ -4,10 +4,10 @@ Flask NameForm
 This is a simple Flask web application that displays a form where a user can input their name, and upon submission, their name is displayed on the page.
 
 ## Requirements
--Flask (version 1.0 or higher)
--Flask-Bootstrap (version 3.3 or higher)
--Flask-WTF (version 0.14 or higher)
--WTForms (version 2.1 or higher)
+* Flask (version 1.0 or higher)
+* Flask-Bootstrap (version 3.3 or higher)
+* Flask-WTF (version 0.14 or higher)
+* WTForms (version 2.1 or higher)
 ## Installation
 Clone or download the repository to your local machine.
 Install the required packages by running pip install -r requirements.txt.
